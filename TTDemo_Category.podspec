@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TTDemo_Category"
-  s.version      = "1"
+  s.version      = "2"
   s.summary      = "TTDemo_Category."
 
   # This description is used to generate tags and improve search results.
@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "TTLogin/TTLogin/**/*.storyboard"
+  # s.resources = "TTLogin/TTLogin/**/*.storyboard"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -133,5 +133,6 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
+  s.dependency "CTMediator"
 
 end

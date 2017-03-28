@@ -6,7 +6,7 @@
 //  Copyright © 2017 demo. All rights reserved.
 //
 
-#import "CTMediator.h"
+#import <CTMediator/CTMediator.h>
 #import <UIKit/UIKit.h>
 
 @interface CTMediator (TTDemo)

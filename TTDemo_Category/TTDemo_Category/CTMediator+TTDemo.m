@@ -10,6 +10,7 @@
 
 @implementation CTMediator (TTDemo)
 - (UIViewController *)TTDemo_viewControllerWithParams:(NSDictionary *)params {
-  [self performTarget:@"TTDemo" action:@"viewControllerWithParams" params:params shouldCacheTarget:NO];
+  UIViewController *viewController = [self performTarget:@"TTDemo" action:@"viewControllerWithParams" params:params shouldCacheTarget:NO];
+  return viewController;
 }
 @end
