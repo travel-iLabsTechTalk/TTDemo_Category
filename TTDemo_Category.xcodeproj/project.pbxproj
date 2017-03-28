@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82D6BE5541180C4B38968313 /* libPods-TTDemo_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B90827D99F6EBB07A3D32829 /* libPods-TTDemo_Category.a */; };
 		ED39EFC71E8A65FD00CDF0BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EFC61E8A65FD00CDF0BF /* main.m */; };
 		ED39EFCA1E8A65FD00CDF0BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EFC91E8A65FD00CDF0BF /* AppDelegate.m */; };
 		ED39EFCD1E8A65FD00CDF0BF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EFCC1E8A65FD00CDF0BF /* FirstViewController.m */; };
@@ -14,9 +15,13 @@
 		ED39EFD31E8A65FD00CDF0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39EFD11E8A65FD00CDF0BF /* Main.storyboard */; };
 		ED39EFD51E8A65FD00CDF0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED39EFD41E8A65FD00CDF0BF /* Assets.xcassets */; };
 		ED39EFD81E8A65FD00CDF0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39EFD61E8A65FD00CDF0BF /* LaunchScreen.storyboard */; };
+		ED39EFE21E8A690A00CDF0BF /* CTMediator+TTDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EFE11E8A690A00CDF0BF /* CTMediator+TTDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4823C949743BAD9FA0AF8CDE /* Pods-TTDemo_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDemo_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTDemo_Category/Pods-TTDemo_Category.release.xcconfig"; sourceTree = "<group>"; };
+		A8BFC9B7D85E5CE793C0E0DF /* Pods-TTDemo_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDemo_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTDemo_Category/Pods-TTDemo_Category.debug.xcconfig"; sourceTree = "<group>"; };
+		B90827D99F6EBB07A3D32829 /* libPods-TTDemo_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTDemo_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED39EFC21E8A65FD00CDF0BF /* TTDemo_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTDemo_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED39EFC61E8A65FD00CDF0BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED39EFC81E8A65FD00CDF0BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +34,8 @@
 		ED39EFD41E8A65FD00CDF0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED39EFD71E8A65FD00CDF0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED39EFD91E8A65FD00CDF0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED39EFE01E8A690A00CDF0BF /* CTMediator+TTDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TTDemo.h"; sourceTree = "<group>"; };
+		ED39EFE11E8A690A00CDF0BF /* CTMediator+TTDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TTDemo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D6BE5541180C4B38968313 /* libPods-TTDemo_Category.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64B1B18AA0B41116F8365C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90827D99F6EBB07A3D32829 /* libPods-TTDemo_Category.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71FAFB5D8452881E8B54337B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8BFC9B7D85E5CE793C0E0DF /* Pods-TTDemo_Category.debug.xcconfig */,
+				4823C949743BAD9FA0AF8CDE /* Pods-TTDemo_Category.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ED39EFB91E8A65FD00CDF0BF = {
 			isa = PBXGroup;
 			children = (
 				ED39EFC41E8A65FD00CDF0BF /* TTDemo_Category */,
 				ED39EFC31E8A65FD00CDF0BF /* Products */,
+				71FAFB5D8452881E8B54337B /* Pods */,
+				64B1B18AA0B41116F8365C1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +88,7 @@
 		ED39EFC41E8A65FD00CDF0BF /* TTDemo_Category */ = {
 			isa = PBXGroup;
 			children = (
+				ED39EFDF1E8A68F700CDF0BF /* TTDemo_Category */,
 				ED39EFC81E8A65FD00CDF0BF /* AppDelegate.h */,
 				ED39EFC91E8A65FD00CDF0BF /* AppDelegate.m */,
 				ED39EFCB1E8A65FD00CDF0BF /* FirstViewController.h */,
@@ -84,6 +112,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ED39EFDF1E8A68F700CDF0BF /* TTDemo_Category */ = {
+			isa = PBXGroup;
+			children = (
+				ED39EFE01E8A690A00CDF0BF /* CTMediator+TTDemo.h */,
+				ED39EFE11E8A690A00CDF0BF /* CTMediator+TTDemo.m */,
+			);
+			path = TTDemo_Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED39EFDC1E8A65FD00CDF0BF /* Build configuration list for PBXNativeTarget "TTDemo_Category" */;
 			buildPhases = (
+				1B7C86C5BAD2A4C8FA7FB081 /* [CP] Check Pods Manifest.lock */,
 				ED39EFBE1E8A65FD00CDF0BF /* Sources */,
 				ED39EFBF1E8A65FD00CDF0BF /* Frameworks */,
 				ED39EFC01E8A65FD00CDF0BF /* Resources */,
+				6FB79A7457C2BF3F78420D8A /* [CP] Embed Pods Frameworks */,
+				A0B2FCC7F03E1A4B8BBC7739 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +191,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B7C86C5BAD2A4C8FA7FB081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6FB79A7457C2BF3F78420D8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTDemo_Category/Pods-TTDemo_Category-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B2FCC7F03E1A4B8BBC7739 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTDemo_Category/Pods-TTDemo_Category-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED39EFBE1E8A65FD00CDF0BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -160,6 +248,7 @@
 				ED39EFCA1E8A65FD00CDF0BF /* AppDelegate.m in Sources */,
 				ED39EFCD1E8A65FD00CDF0BF /* FirstViewController.m in Sources */,
 				ED39EFC71E8A65FD00CDF0BF /* main.m in Sources */,
+				ED39EFE21E8A690A00CDF0BF /* CTMediator+TTDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +366,7 @@
 		};
 		ED39EFDD1E8A65FD00CDF0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BFC9B7D85E5CE793C0E0DF /* Pods-TTDemo_Category.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZWR8MWYL3V;
@@ -289,6 +379,7 @@
 		};
 		ED39EFDE1E8A65FD00CDF0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4823C949743BAD9FA0AF8CDE /* Pods-TTDemo_Category.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZWR8MWYL3V;
