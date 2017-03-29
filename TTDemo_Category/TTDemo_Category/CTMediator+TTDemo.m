@@ -13,4 +13,9 @@
   UIViewController *viewController = [self performTarget:@"TTDemo" action:@"viewControllerWithParams" params:params shouldCacheTarget:NO];
   return viewController;
 }
+
+- (UIViewController *)TTDemo_viewControllerWithText:(NSString *)text {
+  UIViewController *viewController = [self performTarget:@"TTDemo" action:@"viewControllerWithParams" params:@{@"text" : text ?: @""} shouldCacheTarget:NO];
+  return viewController;
+}
 @end

@@ -11,4 +11,5 @@
 
 @interface CTMediator (TTDemo)
 - (UIViewController *)TTDemo_viewControllerWithParams:(NSDictionary *)params;
+- (UIViewController *)TTDemo_viewControllerWithText:(NSString *)text;
 @end
